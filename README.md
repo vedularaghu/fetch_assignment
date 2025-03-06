@@ -1,3 +1,25 @@
+# Docker Setup 
+
+## Building the Docker Image
+
+Run the following command to build the Docker image:
+
+```bash
+docker build -t fetch_assignment .
+```
+
+Run the following command to run the docker container
+
+```bash
+docker run --rm fetch_assignment
+```
+
+Run the following command for individual script execution
+
+```bash
+docker run --rm fetch_assignment python sentence_transformer.py
+```
+
 # Training Considerations
 
 ## 1. Entire Network Frozen
